@@ -14,7 +14,7 @@ https://github.com/Thotachandrika2008/Verilog
 | Half Adder | ✅Done | https://edaplayground.com/x/kd2U|
 | Full Adder | ✅Done | https://edaplayground.com/x/V4Pj|
 |4-bit Binary adder subtractor | ✅Done | https://edaplayground.com/x/hFB5|
-
+| 4:1 MUX | ✅Done | https://edaplayground.com/x/VWjf|
 ### 🛠️ Tools Used
 - EDA Playground
 - Icarus Verilog
@@ -92,9 +92,4 @@ The circuit performs both addition and subtraction based on the control input `c
 - XOR gates for B input modification
 - Two's complement method for subtraction
 
-## Simulation
-The design was simulated and verified using EDA Playground.
-
-## Tools Used
-- Verilog HDL
-- EDA Playground
+#
