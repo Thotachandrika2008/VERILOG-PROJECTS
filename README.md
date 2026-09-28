@@ -92,4 +92,29 @@ The circuit performs both addition and subtraction based on the control input `c
 - XOR gates for B input modification
 - Two's complement method for subtraction
 
-#
+## 4:1 Multiplexer
+
+## Overview
+
+This project implements a 4:1 Multiplexer (MUX) using Verilog HDL.
+
+A 4:1 Multiplexer selects one of four input signals and sends the selected input to the output based on the two select lines.
+
+## Inputs and Output
+
+- `I0` – Input 0
+- `I1` – Input 1
+- `I2` – Input 2
+- `I3` – Input 3
+- `S1` – Select line 1
+- `S0` – Select line 0
+- `Y` – Output
+
+## Operations
+
+| S1 | S0 | Selected Input | Output Y |
+|----|----|----------------|----------|
+| 0  | 0  | I0             | I0       |
+| 0  | 1  | I1             | I1       |
+| 1  | 0  | I2             | I2       |
+| 1  | 1  | I3             | I3       |
